@@ -1,14 +1,103 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+   "Menu":[
+  {
+    "id": "01",
+    "lvl": "01",
+    "title": "menu 1",
+    "data": []
+  },
+  {
+    "id": "02",
+    "lvl": "01",
+    "title": "menu 2",
+    "data": []
+  },
+  {
+    "id": "03",
+    "lvl": "01",
+    "title": "menu 3",
+    "data": []
+  },
+  {
+    "id": "04",
+    "lvl": "01",
+    "title": "menu 4",
+    "data": [
+      {
+        "id": "01",
+        "lvl": "02",
+        "title": "submenu 1",
+        "data": [
+          {
+            "id": "01",
+            "lvl": "02",
+            "title": "sub submenu 1 --01",
+            "data": []
+          },
+          {
+            "id": "02",
+            "lvl": "02",
+            "title": "sub submenu 2 --01",
+            "data": []
+          },
+          {
+            "id": "03",
+            "lvl": "02",
+            "title": "sub submenu 3 --01",
+            "data": []
+          },
+          {
+            "id": "04",
+            "lvl": "02",
+            "title": "sub submenu 4 --01",
+            "data": []
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "lvl": "02",
+        "title": "submenu 2",
+        "data": [
+          {
+            "id": "01",
+            "lvl": "03",
+            "title": "sub submenu 1 --02",
+            "data": []
+          },
+          {
+            "id": "02",
+            "lvl": "03",
+            "title": "sub submenu 2 --02",
+            "data": []
+          },
+          {
+            "id": "03",
+            "lvl": "03",
+            "title": "sub submenu 3 --02",
+            "data": []
+          },
+          {
+            "id": "04",
+            "lvl": "03",
+            "title": "sub submenu 4 --02",
+            "data": []
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "lvl": "02",
+        "title": "submenu 3",
+        "data": []
+      },
+      {
+        "id": "04",
+        "lvl": "02",
+        "title": "submenu 4",
+        "data": []
+      }
+    ]
   }
+]
 }
